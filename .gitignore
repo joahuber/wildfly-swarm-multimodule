@@ -1,0 +1,46 @@
+*.class
+
+# Eclipse Core
+.settings/
+.project
+.classpath
+
+#Intellij
+.idea/
+*.iml
+
+#Gradle
+.gradle/
+
+#Nodejs
+node_modules/
+
+# Output-Folder
+bin/
+build/
+target/
+jbehave/
+compass-build/
+log/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# explicitly allow gradle wrapper jar
+!/gradle/wrapper/gradle-wrapper.jar
+
+# JBake staging folder
+doc/jbake/content/
+
+.settings
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# caches
+.sass-cache
+
+# Mac OS X
+.DS_Store
